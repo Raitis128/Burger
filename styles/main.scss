@@ -59,7 +59,7 @@ header {
             font-family: $plus;
             font-weight: 700;
             background-color: $red;
-            padding: 8px 24px;
+            padding: 4px 24px 8px 24px;
             border-radius: 20px;
             position: relative;
             top: 382px;
@@ -152,7 +152,7 @@ footer {
                 margin-bottom: 24px;
                 height: 72px;
     
-                a{
+                a {
                     display: inline-block;
                     color: #fff;
                     font-size: 20px;
@@ -160,6 +160,10 @@ footer {
                     font-family: $lato;
                     margin-bottom: 24px;
     
+                    &:last-child {
+                        text-decoration: none;;
+                    }
+
                     &:hover {
                         opacity: 0.7;
                     }
