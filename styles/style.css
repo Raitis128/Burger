@@ -41,6 +41,13 @@ header aside {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+header aside .button {
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 header aside a {
   text-decoration: none;
@@ -51,9 +58,6 @@ header aside a {
   background-color: #D72D27;
   padding: 4px 24px 8px 24px;
   border-radius: 20px;
-  position: relative;
-  top: 382px;
-  left: 951px;
 }
 
 .header {
@@ -168,6 +172,9 @@ footer .containers .last {
 article {
   background-color: #FAA92C;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
   height: 496px;
   margin-bottom: 80px;
 }
@@ -178,14 +185,10 @@ article p {
   font-weight: 400;
   width: 658px;
   height: 203px;
-  margin-left: 100px;
-  margin-top: 146px;
 }
 article iframe {
   width: 625px;
   height: 268px;
-  margin-left: 49px;
-  margin-top: 114px;
 }
 
 .video_section {
