@@ -9,7 +9,8 @@ header {
   display: flex;
 }
 header nav {
-  width: 400px;
+  flex-basis: 303px;
+  flex-grow: 1;
   background-color: #D72D27;
 }
 header nav ul {
@@ -35,34 +36,11 @@ header nav li:first-child {
 header nav li:hover {
   opacity: 0.7;
 }
-header aside {
-  width: 100%;
-  background-image: url("../resources/images/home_banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-}
-header aside .button {
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
-header aside a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 32px;
-  font-family: "M PLUS 1", sans-serif;
-  font-weight: 700;
-  background-color: #D72D27;
-  padding: 4px 24px 8px 24px;
-  border-radius: 20px;
-}
 
 .header {
   display: flex;
   justify-content: center;
+  background-color: #fff;
 }
 .header h1 {
   display: inline-block;
@@ -169,6 +147,32 @@ footer .containers .last {
   margin-bottom: 16px;
 }
 
+.home_banner {
+  background-image: url("../resources/images/home_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  flex-basis: 1210px;
+  flex-grow: 4;
+}
+.home_banner .button {
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.home_banner a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: 700;
+  background-color: #D72D27;
+  padding: 4px 24px 8px 24px;
+  border-radius: 20px;
+}
+
 article {
   background-color: #FAA92C;
   display: flex;
@@ -198,6 +202,113 @@ article iframe {
   object-fit: fill;
   width: 100%;
   height: 600px;
+}
+
+.careers_banner {
+  background-image: url("../resources/images/career_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-basis: 1210px;
+  flex-grow: 4;
+}
+
+.vacancies {
+  background-color: #FAA92C;
+  margin-bottom: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cards .card-first {
+  margin-left: 100px;
+}
+.cards .card-last {
+  margin-right: 105px;
+}
+.cards .vacancie-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 126px;
+  margin-bottom: 100px;
+  box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
+}
+.cards .vacancie-card img {
+  width: 100%;
+}
+.cards .vacancie-card .card-header {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "M PLUS 1", sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #658B3B;
+  padding-top: 20px;
+  padding-bottom: 33px;
+}
+
+.vacancies-form {
+  background-color: #658B3B;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.vacancies-form p {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  padding-left: 69px;
+  padding-top: 60px;
+  padding-bottom: 97px;
+}
+.vacancies-form .form-item {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.vacancies-form .form-item label {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "M PLUS 1", sans-serif;
+  color: #fff;
+}
+.vacancies-form .form-item input, .vacancies-form .form-item textarea {
+  width: 750px;
+  border-radius: 10px;
+}
+.vacancies-form .form-item input {
+  height: 60px;
+}
+.vacancies-form .btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.vacancies-form .btn .apply {
+  color: #fff;
+  text-align: center;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 280px;
+  height: 85px;
+  background-color: #2648B9;
+  cursor: pointer;
+}
+.vacancies-form .btn .apply:hover {
+  opacity: 0.7;
+}
+
+.careers-body {
+  background-color: #FAA92C;
 }
 
 /*# sourceMappingURL=style.css.map */

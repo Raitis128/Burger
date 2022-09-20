@@ -1,5 +1,8 @@
 $red: #D72D27;
 $orange: #FAA92C;
+$green: #658B3B;
+$blue: #2648B9;
+
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
@@ -14,7 +17,8 @@ header {
     height: 487px;
     display: flex;
     nav {
-        width: 400px;
+        flex-basis: 303px;
+        flex-grow: 1;
         background-color: $red;
         
         ul {
@@ -45,37 +49,13 @@ header {
             }
         }
     }
-    aside {
-        width: 100%;
-        background-image: url("../resources/images/home_banner.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: flex-end;
-
-        .button {
-            margin-right: 5%;
-            margin-bottom: 5%;
-        }
-
-        a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 32px;
-            font-family: $plus;
-            font-weight: 700;
-            background-color: $red;
-            padding: 4px 24px 8px 24px;
-            border-radius: 20px;
-        }
-    }
 }
 
 .header {
     display: flex;
     justify-content: center;
+    background-color: #fff;
+    
     h1 {
         display: inline-block;
         font-size: 48px;

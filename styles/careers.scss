@@ -1,0 +1,129 @@
+$red: #D72D27;
+$orange: #FAA92C;
+$green: #658B3B;
+$blue: #2648B9;
+
+$plus: "M PLUS 1", sans-serif;
+$lato: "Lato", sans-serif;
+
+.careers_banner {
+    background-image: url("../resources/images/career_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 1210px;
+    flex-grow: 4;
+}
+
+.vacancies {
+    background-color: $orange;
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+    .card-first {
+        margin-left: 100px;
+    }
+
+    .card-last {
+        margin-right: 105px;
+    }
+
+    .vacancie-card {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-top: 126px;
+        margin-bottom: 100px;
+        box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
+        -webkit-box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
+        -moz-box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
+
+        img {
+            width: 100%;
+        }
+
+        .card-header {
+            font-size: 40px;
+            font-weight: 700;
+            font-family: $plus;
+            text-align: center;
+            color: #fff;
+            background-color: $green;
+            padding-top: 20px;
+            padding-bottom: 33px;
+        }
+    }
+}
+
+.vacancies-form {
+    background-color: $green;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    p {
+        font-size: 34px;
+        font-weight: 400;
+        font-family: $lato;
+        color: #fff;
+        padding-left: 69px;
+        padding-top: 60px;
+        padding-bottom: 97px;
+    }
+
+    .form-item {
+        margin-left: 70px;
+        margin-right: 70px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 65px;
+
+        label {
+            font-size: 32px;
+            font-weight: 700;
+            font-family: $plus;
+            color: #fff;
+        }
+
+        input, textarea {
+            width: 750px;
+            border-radius: 10px;
+        }
+
+        input {
+            height: 60px;
+        }
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+
+        .apply {
+            color: #fff;
+            text-align: center;
+            font-family: $plus;
+            font-size: 36px;
+            font-weight: 700;
+            border-radius: 30px;
+            width: 280px;
+            height: 85px;
+            background-color: $blue;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+}
+
+.careers-body {
+    background-color: $orange;
+}
+

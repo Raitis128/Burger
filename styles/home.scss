@@ -1,8 +1,39 @@
 $red: #D72D27;
 $orange: #FAA92C;
+$green: #658B3B;
+$blue: #2648B9;
+
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
+
+.home_banner {
+    background-image: url("../resources/images/home_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    flex-basis: 1210px;
+    flex-grow: 4;
+
+    .button {
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 32px;
+        font-family: $plus;
+        font-weight: 700;
+        background-color: $red;
+        padding: 4px 24px 8px 24px;
+        border-radius: 20px;
+    }
+}
 
 article {
     background-color: $orange;
