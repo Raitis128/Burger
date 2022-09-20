@@ -66,10 +66,13 @@ footer p {
 footer .containers {
   display: flex;
   color: #fff;
+  justify-content: center;
+  gap: 120px;
 }
 footer .containers .container {
   margin-top: 40px;
-  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
 }
 footer .containers .container li {
   list-style: none;
@@ -139,11 +142,9 @@ footer .containers .container .icons a:hover {
   opacity: 0.7;
 }
 footer .containers .first {
-  margin-left: 153px;
   margin-bottom: 16px;
 }
 footer .containers .last {
-  margin-right: 158px;
   margin-bottom: 16px;
 }
 
@@ -159,8 +160,8 @@ footer .containers .last {
   flex-grow: 4;
 }
 .home_banner .button {
-  margin-right: 5%;
-  margin-bottom: 5%;
+  margin-right: 43px;
+  margin-bottom: 43px;
 }
 .home_banner a {
   text-decoration: none;
@@ -282,6 +283,10 @@ article iframe {
 .vacancies-form .form-item input, .vacancies-form .form-item textarea {
   width: 750px;
   border-radius: 10px;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 5px;
 }
 .vacancies-form .form-item input {
   height: 60px;

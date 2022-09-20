@@ -55,7 +55,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    
+
     h1 {
         display: inline-block;
         font-size: 48px;
@@ -82,11 +82,13 @@ footer {
     .containers {
         display: flex;
         color: #fff;
-    
+        justify-content: center;
+        gap: 120px;
     
         .container {
             margin-top: 40px;
-            margin-right: 120px;
+            display: flex;
+            flex-direction: column;
     
                 li {
                     list-style: none;
@@ -170,12 +172,10 @@ footer {
         }
     
         .first {
-            margin-left: 153px;
             margin-bottom: 16px;
         }
     
         .last {
-            margin-right: 158px;
             margin-bottom: 16px;
         }
     }

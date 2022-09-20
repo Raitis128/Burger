@@ -59,23 +59,23 @@
                 <form action="post" method="#">
                     <div class="form-item">
                         <label for="fName">First Name</label>
-                        <input type="text" name="fName" id="fName" required maxlength="20">
+                        <input type="text" name="fName" id="fName" required maxlength="20" minlength="3">
                     </div>
                     <div class="form-item">
                         <label for="lName">Second Name</label>
-                        <input type="text" name="lName" id="lName" required maxlength="20">
+                        <input type="text" name="lName" id="lName" required maxlength="20" minlength="3">
                     </div>
                     <div class="form-item">
                         <label for="email">Email Address</label>
-                        <input type="text" name="email" id="email" required maxlength="30"> 
+                        <input type="text" name="email" id="email" required maxlength="30" minlength="10" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
                     </div>
                     <div class="form-item">
                         <label for="position">Position Applying For</label>
-                        <input type="text" name="position" id="position" required maxlength="20">
+                        <input type="text" name="position" id="position" required maxlength="20" minlength="5">
                     </div>
                     <div class="form-item">
                         <label for="info">Additional Information</label>
-                        <textarea name="info" id="info" cols="30" rows="10" required></textarea>
+                        <textarea name="info" id="info" cols="30" rows="10" required minlength="10"></textarea>
                     </div>
                     <div class="btn">
                         <button type="submit" class="apply">Apply</button>
