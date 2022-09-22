@@ -1,0 +1,148 @@
+$red: #D72D27;
+$orange: #FAA92C;
+$green: #658B3B;
+$blue: #2648B9;
+
+$plus: "M PLUS 1", sans-serif;
+$lato: "Lato", sans-serif;
+
+.contact_banner {
+    background-image: url("../resources/images/contact_us_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 1210px;
+    flex-grow: 4;
+}
+
+.contacts {
+    background-color: $orange;
+    display: flex;
+    margin-bottom: 100px;
+
+    .general_info {
+        background-color: $green;
+        margin-top: 105px;
+        margin-bottom: 105px;
+        margin-left: 100px;
+        color: #fff;
+        border-radius: 10px;
+        margin-right: 100px;
+        flex-basis: 500px;
+    
+        h4 {
+            font-size: 40px;
+            font-weight: 700;
+            font-family: $plus;
+            margin-top: 56px;
+            margin-left: 50px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: 400;
+            font-family: $lato;
+            margin-top: 28px;
+            margin-left: 50px;
+            margin-right: 85px;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 64px;
+            margin-left: 50px;
+            margin-right: 85px;
+
+            i {
+                color: #fff;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .contact-form {
+        background-color: $green;
+        margin-top: 105px;
+        margin-bottom: 105px;
+        margin-right: 100px;
+        color: #fff;
+        border-radius: 10px;
+        flex-basis: 720px;
+
+        h3 {
+            font-size: 48px;
+            font-weight: 700;
+            font-family: $plus;
+            margin-top: 30px;
+            margin-left: 86px;
+            margin-bottom: 40px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            input {
+                margin-left: 86px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                height: 50px;
+                width: 560px;
+                margin-right: 66px;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: $plus;
+                padding: 5px;
+            }
+
+            textarea {
+                margin-left: 86px;
+                margin-right: 66px;
+                width: 560px;
+                height: 130px;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: $plus;
+                padding: 5px;
+                margin-bottom: 33px;
+            }
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 33px;
+        
+                button {
+                    color: #fff;
+                    text-align: center;
+                    font-family: $plus;
+                    font-size: 24px;
+                    font-weight: 700;
+                    border-radius: 30px;
+                    width: 215px;
+                    height: 65px;
+                    background-color: $blue;
+                    cursor: pointer;
+        
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.map {
+
+    iframe {
+        width: 100%;
+        height: 460px;
+    }
+}
