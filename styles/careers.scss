@@ -1,7 +1,7 @@
-$red: #D72D27;
-$orange: #FAA92C;
-$green: #658B3B;
-$blue: #2648B9;
+$red: #d72d27;
+$orange: #faa92c;
+$green: #658b3b;
+$blue: #2648b9;
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
@@ -38,9 +38,9 @@ $lato: "Lato", sans-serif;
         width: 25%;
         margin-top: 126px;
         margin-bottom: 100px;
-        box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
-        -webkit-box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
-        -moz-box-shadow: 8px -1px 1px 0px rgba(0,0,0,0.49);
+        box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
+        -webkit-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
+        -moz-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
 
         img {
             width: 100%;
@@ -88,7 +88,8 @@ $lato: "Lato", sans-serif;
             color: #fff;
         }
 
-        input, textarea {
+        input,
+        textarea {
             width: 750px;
             border-radius: 10px;
             font-size: 24px;
@@ -124,10 +125,8 @@ $lato: "Lato", sans-serif;
             }
         }
     }
-
 }
 
 .careers-body {
     background-color: $orange;
 }
-

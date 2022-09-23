@@ -1,7 +1,7 @@
-$red: #D72D27;
-$orange: #FAA92C;
-$green: #658B3B;
-$blue: #2648B9;
+$red: #d72d27;
+$orange: #faa92c;
+$green: #658b3b;
+$blue: #2648b9;
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
@@ -19,6 +19,8 @@ $lato: "Lato", sans-serif;
     background-color: $orange;
     display: flex;
     margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 100px;
 
     .general_info {
         background-color: $green;
@@ -27,9 +29,9 @@ $lato: "Lato", sans-serif;
         margin-left: 100px;
         color: #fff;
         border-radius: 10px;
-        margin-right: 100px;
         flex-basis: 500px;
-    
+        flex: 1.3;
+
         h4 {
             font-size: 40px;
             font-weight: 700;
@@ -73,6 +75,7 @@ $lato: "Lato", sans-serif;
         color: #fff;
         border-radius: 10px;
         flex-basis: 720px;
+        flex: 1.7;
 
         h3 {
             font-size: 48px;
@@ -117,7 +120,7 @@ $lato: "Lato", sans-serif;
                 display: flex;
                 justify-content: center;
                 padding-bottom: 33px;
-        
+
                 button {
                     color: #fff;
                     text-align: center;
@@ -129,7 +132,7 @@ $lato: "Lato", sans-serif;
                     height: 65px;
                     background-color: $blue;
                     cursor: pointer;
-        
+
                     &:hover {
                         opacity: 0.7;
                     }
@@ -138,11 +141,7 @@ $lato: "Lato", sans-serif;
         }
     }
 }
-
-.map {
-
-    iframe {
-        width: 100%;
-        height: 460px;
-    }
+iframe {
+    width: 100%;
+    height: 460px;
 }

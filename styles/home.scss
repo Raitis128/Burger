@@ -1,8 +1,7 @@
-$red: #D72D27;
-$orange: #FAA92C;
-$green: #658B3B;
-$blue: #2648B9;
-
+$red: #d72d27;
+$orange: #faa92c;
+$green: #658b3b;
+$blue: #2648b9;
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
@@ -32,6 +31,10 @@ $lato: "Lato", sans-serif;
         background-color: $red;
         padding: 4px 24px 8px 24px;
         border-radius: 20px;
+
+        &:hover {
+            background-color: $blue;
+        }
     }
 }
 

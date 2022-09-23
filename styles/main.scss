@@ -1,16 +1,21 @@
-$red: #D72D27;
-$orange: #FAA92C;
-$green: #658B3B;
-$blue: #2648B9;
-
+$red: #d72d27;
+$orange: #faa92c;
+$green: #658b3b;
+$blue: #2648b9;
 
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 header {
@@ -20,7 +25,7 @@ header {
         flex-basis: 303px;
         flex-grow: 1;
         background-color: $red;
-        
+
         ul {
             display: flex;
             flex-wrap: wrap;
@@ -31,7 +36,7 @@ header {
             text-align: center;
             width: 100%;
             margin-bottom: 25px;
-            
+
             a {
                 color: #fff;
                 text-decoration: none;
@@ -43,7 +48,7 @@ header {
             &:first-child {
                 margin-bottom: 5px;
             }
-            
+
             &:hover {
                 opacity: 0.7;
             }
@@ -84,33 +89,33 @@ footer {
         color: #fff;
         justify-content: center;
         gap: 120px;
-    
+
         .container {
             margin-top: 40px;
             display: flex;
             flex-direction: column;
-    
-                li {
-                    list-style: none;
+
+            li {
+                list-style: none;
+                text-align: right;
+
+                a {
+                    display: inline-block;
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-family: $lato;
+                    margin-bottom: 15px;
+                    border-bottom: solid #fff 1px;
                     text-align: right;
-    
-                    a {
-                        display: inline-block;
-                        color: #fff;
-                        text-decoration: none;
-                        font-size: 20px;
-                        font-weight: 400;
-                        font-family: $lato;
-                        margin-bottom: 15px;
-                        border-bottom: solid #fff 1px;
-                        text-align: right;
-    
-                        &:hover {
-                            opacity: 0.7;
-                        }
+
+                    &:hover {
+                        opacity: 0.7;
                     }
                 }
-    
+            }
+
             h3 {
                 font-size: 28px;
                 font-weight: 700;
@@ -119,26 +124,26 @@ footer {
                 text-align: center;
                 margin-bottom: 27px;
             }
-    
+
             pre {
                 font-size: 20px;
                 font-weight: 400;
                 font-family: $lato;
                 text-transform: uppercase;
             }
-    
+
             p {
                 font-size: 20px;
                 font-weight: 400;
                 font-family: $lato;
                 margin-bottom: 15px;
             }
-    
+
             address {
                 text-align: center;
                 margin-bottom: 24px;
                 height: 72px;
-    
+
                 a {
                     display: inline-block;
                     color: #fff;
@@ -146,9 +151,9 @@ footer {
                     font-weight: 400;
                     font-family: $lato;
                     margin-bottom: 24px;
-    
+
                     &:last-child {
-                        text-decoration: none;;
+                        text-decoration: none;
                     }
 
                     &:hover {
@@ -156,11 +161,11 @@ footer {
                     }
                 }
             }
-    
+
             .icons {
                 display: flex;
                 justify-content: space-between;
-                
+
                 a {
                     color: #fff;
 
@@ -170,20 +175,19 @@ footer {
                 }
             }
         }
-    
+
         .first {
             margin-bottom: 16px;
         }
-    
+
         .last {
             margin-bottom: 16px;
         }
     }
 }
 
-
-
-@import 'home.scss';
-@import 'menu.scss';
-@import 'careers.scss';
-@import 'contact.scss';
+@import "home.scss";
+@import "menu.scss";
+@import "careers.scss";
+@import "contact.scss";
+@import "diagram.scss";
