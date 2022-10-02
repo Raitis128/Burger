@@ -9,13 +9,14 @@ $lato: "Lato", sans-serif;
 .home_banner {
     background-image: url("../resources/images/home_banner.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
     flex-basis: 1210px;
     flex-grow: 4;
+    flex-shrink: 2;
 
     .button {
         margin-right: 43px;
@@ -46,11 +47,13 @@ $lato: "Lato", sans-serif;
     gap: 50px;
     height: 496px;
     margin-bottom: 80px;
+    padding-left: 3%;
+    padding-right: 3%;
 
     p {
         color: #fff;
-        font-size: 24px;
         font-family: $lato;
+        font-size: 24px;
         font-weight: 400;
         width: 658px;
         height: 203px;

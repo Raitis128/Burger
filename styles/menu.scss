@@ -13,18 +13,22 @@ $lato: "Lato", sans-serif;
     background-size: cover;
     flex-basis: 1210px;
     flex-grow: 4;
+    flex-shrink: 2;
 }
 
 .menu {
     background-color: $orange;
 
     .menu-header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
         p {
             color: #fff;
             font-size: 26px;
             font-weight: 700;
             font-family: $plus;
-            padding: 60px 35px 35px 85px;
+            margin: 60px 0 35px 85px;
             display: inline-block;
         }
 
@@ -35,9 +39,15 @@ $lato: "Lato", sans-serif;
             font-family: $plus;
             text-decoration: none;
             padding: 7px 20px;
+            margin-left: 35px;
+            margin-right: 35px;
             background-color: $red;
             margin-top: 35px;
             border-radius: 20px;
+
+            &:hover {
+                background-color: $blue;
+            }
         }
     }
 

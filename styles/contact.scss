@@ -9,10 +9,11 @@ $lato: "Lato", sans-serif;
 .contact_banner {
     background-image: url("../resources/images/contact_us_banner.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     flex-basis: 1210px;
     flex-grow: 4;
+    flex-shrink: 2;
 }
 
 .contacts {
@@ -20,6 +21,7 @@ $lato: "Lato", sans-serif;
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 100px;
 
     .general_info {
