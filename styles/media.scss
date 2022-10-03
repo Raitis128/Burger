@@ -6,7 +6,7 @@ $blue: #2648b9;
 $plus: "M PLUS 1", sans-serif;
 $lato: "Lato", sans-serif;
 
-$tablet: "768px";
+$tablet: "912px";
 $phone: "480px";
 
 @media only screen and (max-width: $tablet) {
@@ -60,9 +60,6 @@ $phone: "480px";
             }
         }
     }
-}
-
-@media only screen and (max-width: 1200px) {
     .about-info {
         p {
             font-size: 20px;
@@ -87,9 +84,6 @@ $phone: "480px";
             height: 150px;
         }
     }
-}
-
-@media only screen and (max-width: 1400px) and (min-width: $tablet) {
     .menu {
         .menu-header {
             justify-content: center;
@@ -122,6 +116,151 @@ $phone: "480px";
 
             .container {
                 margin-right: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $phone) {
+    .home_banner {
+        background-position: left;
+
+        a {
+            font-size: 18px;
+        }
+    }
+
+    .menu_banner {
+        background-position: right;
+    }
+
+    .careers_banner {
+        background-position: right;
+    }
+
+    .contact_banner {
+        background-position: right;
+    }
+
+    .about-info {
+        align-items: stretch;
+        padding-top: 50px;
+
+        p {
+            font-size: 16px;
+            height: 100%;
+        }
+
+        iframe {
+            padding-top: 50px;
+        }
+    }
+
+    .cards {
+        gap: 0;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .vacancie-card {
+            margin: 50px;
+            margin-bottom: 0;
+            width: 50%;
+        }
+
+        .card-last {
+            margin-bottom: 50px;
+        }
+    }
+
+    .vacancies-form {
+        margin: 0;
+
+        .form-item {
+            input {
+                height: 25px;
+                margin-top: 5%;
+                font-size: 18px;
+            }
+
+            textarea {
+                height: 100px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    footer {
+        .containers {
+            .container {
+                margin: 0;
+            }
+        }
+    }
+
+    .contacts {
+        .general_info {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 0;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            flex-basis: 100%;
+
+            h4 {
+                margin-left: 0;
+                margin-right: 0;
+                text-align: center;
+            }
+
+            p {
+                margin-left: 8%;
+                margin-right: 8%;
+            }
+
+            .icons {
+                margin-left: 0;
+                margin-right: 0;
+                justify-content: space-around;
+            }
+        }
+
+        .contact-form {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 50px;
+            border-radius: 0;
+
+            form {
+                align-content: center;
+
+                input {
+                    width: 90%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    font-size: 18px;
+                }
+
+                textarea {
+                    width: 90%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    font-size: 18px;
+                }
+
+                .btn {
+                    button {
+                        font-size: 20px;
+                        width: 160px;
+                        height: 45px;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 35px;
             }
         }
     }

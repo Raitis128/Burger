@@ -55,13 +55,19 @@ $lato: "Lato", sans-serif;
         font-family: $lato;
         font-size: 24px;
         font-weight: 400;
-        width: 658px;
+        width: 50%;
         height: 203px;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
     }
 
     iframe {
-        width: 625px;
+        width: 50%;
         height: 268px;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
     }
 }
 
