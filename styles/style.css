@@ -12,25 +12,21 @@ header {
   height: 487px;
   display: flex;
 }
-
 header nav {
   flex-basis: 303px;
   flex-grow: 1;
   background-color: #d72d27;
 }
-
 header nav ul {
   display: flex;
   flex-wrap: wrap;
 }
-
 header nav li {
   list-style: none;
   text-align: center;
   width: 100%;
   margin-bottom: 25px;
 }
-
 header nav li a {
   color: #fff;
   text-decoration: none;
@@ -38,11 +34,9 @@ header nav li a {
   font-weight: 700;
   font-size: 40px;
 }
-
 header nav li:first-child {
   margin-bottom: 5px;
 }
-
 header nav li:hover {
   opacity: 0.7;
 }
@@ -52,7 +46,6 @@ header nav li:hover {
   justify-content: center;
   background-color: #fff;
 }
-
 .header h1 {
   display: inline-block;
   font-size: 48px;
@@ -66,7 +59,6 @@ header nav li:hover {
 footer {
   background-color: #d72d27;
 }
-
 footer p {
   color: #fff;
   font-size: 14px;
@@ -74,7 +66,6 @@ footer p {
   font-weight: 400;
   text-align: center;
 }
-
 footer .containers {
   display: flex;
   flex-wrap: wrap;
@@ -82,18 +73,15 @@ footer .containers {
   justify-content: center;
   gap: 120px;
 }
-
 footer .containers .container {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
-
 footer .containers .container li {
   list-style: none;
   text-align: right;
 }
-
 footer .containers .container li a {
   display: inline-block;
   color: #fff;
@@ -105,11 +93,9 @@ footer .containers .container li a {
   border-bottom: solid #fff 1px;
   text-align: right;
 }
-
 footer .containers .container li a:hover {
   opacity: 0.7;
 }
-
 footer .containers .container h3 {
   font-size: 28px;
   font-weight: 700;
@@ -118,27 +104,23 @@ footer .containers .container h3 {
   text-align: center;
   margin-bottom: 27px;
 }
-
 footer .containers .container pre {
   font-size: 20px;
   font-weight: 400;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
 }
-
 footer .containers .container p {
   font-size: 20px;
   font-weight: 400;
   font-family: "Lato", sans-serif;
   margin-bottom: 15px;
 }
-
 footer .containers .container address {
   text-align: center;
   margin-bottom: 24px;
   height: 72px;
 }
-
 footer .containers .container address a {
   display: inline-block;
   color: #fff;
@@ -147,32 +129,25 @@ footer .containers .container address a {
   font-family: "Lato", sans-serif;
   margin-bottom: 24px;
 }
-
 footer .containers .container address a:last-child {
   text-decoration: none;
 }
-
 footer .containers .container address a:hover {
   opacity: 0.7;
 }
-
 footer .containers .container .icons {
   display: flex;
   justify-content: space-between;
 }
-
 footer .containers .container .icons a {
   color: #fff;
 }
-
 footer .containers .container .icons a:hover {
   opacity: 0.7;
 }
-
 footer .containers .first {
   margin-bottom: 16px;
 }
-
 footer .containers .last {
   margin-bottom: 16px;
 }
@@ -189,12 +164,10 @@ footer .containers .last {
   flex-grow: 4;
   flex-shrink: 2;
 }
-
 .home_banner .button {
   margin-right: 43px;
   margin-bottom: 43px;
 }
-
 .home_banner a {
   text-decoration: none;
   color: #fff;
@@ -205,7 +178,6 @@ footer .containers .last {
   padding: 4px 24px 8px 24px;
   border-radius: 20px;
 }
-
 .home_banner a:hover {
   background-color: #2648b9;
 }
@@ -221,7 +193,6 @@ footer .containers .last {
   padding-left: 3%;
   padding-right: 3%;
 }
-
 .about-info p {
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -233,7 +204,6 @@ footer .containers .last {
   flex-grow: 1;
   flex-shrink: 1;
 }
-
 .about-info iframe {
   width: 50%;
   height: 268px;
@@ -245,7 +215,6 @@ footer .containers .last {
 .video_section {
   margin-bottom: 80px;
 }
-
 .video_section video {
   object-fit: fill;
   width: 100%;
@@ -265,13 +234,11 @@ footer .containers .last {
 .menu {
   background-color: #faa92c;
 }
-
 .menu .menu-header {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
-
 .menu .menu-header p {
   color: #fff;
   font-size: 26px;
@@ -280,7 +247,6 @@ footer .containers .last {
   margin: 60px 0 35px 85px;
   display: inline-block;
 }
-
 .menu .menu-header a {
   color: #fff;
   font-size: 24px;
@@ -294,11 +260,9 @@ footer .containers .last {
   margin-top: 35px;
   border-radius: 20px;
 }
-
 .menu .menu-header a:hover {
   background-color: #2648b9;
 }
-
 .menu .menu-cards {
   display: flex;
   flex-wrap: wrap;
@@ -307,39 +271,33 @@ footer .containers .last {
   gap: 100px;
   padding-bottom: 100px;
 }
-
 .menu .menu-cards .card {
   display: flex;
   flex-direction: column;
   background-color: #658b3b;
   flex-basis: 370px;
 }
-
 .menu .menu-cards .card img {
   width: 373px;
   height: 235px;
 }
-
 .menu .menu-cards .card .card-info .card-header {
   display: flex;
   justify-content: space-between;
   margin: 17px 34px;
 }
-
 .menu .menu-cards .card .card-info .card-header h3 {
   color: #fff;
   font-size: 30px;
   font-family: "M PLUS 1", sans-serif;
   font-weight: 700;
 }
-
 .menu .menu-cards .card .card-info .card-header h4 {
   color: #fff;
   font-size: 22px;
   font-family: "M PLUS 1", sans-serif;
   font-weight: 700;
 }
-
 .menu .menu-cards .card .card-info .card-header span {
   color: #fff;
   font-size: 16px;
@@ -349,7 +307,6 @@ footer .containers .last {
   border-radius: 50%;
   padding: 3px;
 }
-
 .menu .menu-cards .card .card-info table {
   border-collapse: collapse;
   display: flex;
@@ -357,7 +314,6 @@ footer .containers .last {
   margin: 0 35px 50px 35px;
   align-items: center;
 }
-
 .menu .menu-cards .card .card-info table th {
   border: 1px solid #fff;
   color: #fff;
@@ -367,7 +323,6 @@ footer .containers .last {
   text-align: center;
   padding: 2px 88px;
 }
-
 .menu .menu-cards .card .card-info table td {
   border: 1px solid #fff;
   color: #fff;
@@ -378,21 +333,17 @@ footer .containers .last {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-
 .menu .menu-cards .card .card-info .two-tables {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
-
 .menu .menu-cards .card .card-info .two-tables table:first-child {
   margin-right: 0;
 }
-
 .menu .menu-cards .card .card-info .two-tables table:last-child {
   margin-left: 0;
 }
-
 .menu .menu-cards .card .card-info .two-tables th {
   padding: 2px 40px;
 }
@@ -416,15 +367,12 @@ footer .containers .last {
   display: flex;
   justify-content: space-between;
 }
-
 .cards .card-first {
   margin-left: 100px;
 }
-
 .cards .card-last {
   margin-right: 105px;
 }
-
 .cards .vacancie-card {
   display: flex;
   flex-direction: column;
@@ -435,11 +383,9 @@ footer .containers .last {
   -webkit-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
   -moz-box-shadow: 8px -1px 1px 0px rgba(0, 0, 0, 0.49);
 }
-
 .cards .vacancie-card img {
   width: 100%;
 }
-
 .cards .vacancie-card .card-header {
   font-size: 40px;
   font-weight: 700;
@@ -456,7 +402,6 @@ footer .containers .last {
   margin-right: 100px;
   margin-left: 100px;
 }
-
 .vacancies-form p {
   font-size: 34px;
   font-weight: 400;
@@ -467,7 +412,6 @@ footer .containers .last {
   padding-bottom: 97px;
   padding-right: 69px;
 }
-
 .vacancies-form .form-item {
   margin-left: 70px;
   margin-right: 70px;
@@ -475,14 +419,12 @@ footer .containers .last {
   justify-content: space-between;
   margin-bottom: 40px;
 }
-
 .vacancies-form .form-item label {
   font-size: 32px;
   font-weight: 700;
   font-family: "M PLUS 1", sans-serif;
   color: #fff;
 }
-
 .vacancies-form .form-item input,
 .vacancies-form .form-item textarea {
   width: 750px;
@@ -492,17 +434,14 @@ footer .containers .last {
   font-weight: 400;
   padding: 5px;
 }
-
 .vacancies-form .form-item input {
   height: 60px;
 }
-
 .vacancies-form .btn {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
 }
-
 .vacancies-form .btn .apply {
   color: #fff;
   text-align: center;
@@ -515,7 +454,6 @@ footer .containers .last {
   background-color: #2648b9;
   cursor: pointer;
 }
-
 .vacancies-form .btn .apply:hover {
   opacity: 0.7;
 }
@@ -542,7 +480,6 @@ footer .containers .last {
   flex-wrap: wrap;
   gap: 100px;
 }
-
 .contacts .general_info {
   background-color: #658b3b;
   margin-top: 105px;
@@ -553,7 +490,6 @@ footer .containers .last {
   flex-basis: 500px;
   flex: 1.3;
 }
-
 .contacts .general_info h4 {
   font-size: 40px;
   font-weight: 700;
@@ -561,7 +497,6 @@ footer .containers .last {
   margin-top: 56px;
   margin-left: 50px;
 }
-
 .contacts .general_info p {
   font-size: 25px;
   font-weight: 400;
@@ -570,11 +505,9 @@ footer .containers .last {
   margin-left: 50px;
   margin-right: 85px;
 }
-
 .contacts .general_info p a {
   color: #fff;
 }
-
 .contacts .general_info .icons {
   display: flex;
   justify-content: space-between;
@@ -582,12 +515,10 @@ footer .containers .last {
   margin-left: 50px;
   margin-right: 85px;
 }
-
 .contacts .general_info .icons i {
   color: #fff;
   margin-top: 30px;
 }
-
 .contacts .contact-form {
   background-color: #658b3b;
   margin-top: 105px;
@@ -602,7 +533,6 @@ footer .containers .last {
   flex-direction: column;
   align-items: center;
 }
-
 .contacts .contact-form h3 {
   font-size: 48px;
   font-weight: 700;
@@ -610,13 +540,11 @@ footer .containers .last {
   margin-top: 30px;
   margin-bottom: 40px;
 }
-
 .contacts .contact-form form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 .contacts .contact-form form input {
   margin-left: 86px;
   margin-bottom: 30px;
@@ -629,12 +557,10 @@ footer .containers .last {
   font-family: "M PLUS 1", sans-serif;
   padding: 5px;
 }
-
 .contacts .contact-form form input:focus {
   border: 4px solid #2648b9;
   outline: none;
 }
-
 .contacts .contact-form form textarea {
   margin-left: 86px;
   margin-right: 66px;
@@ -646,18 +572,11 @@ footer .containers .last {
   padding: 5px;
   margin-bottom: 33px;
 }
-
-.contacts .contact-form form textarea:focus {
-  border: 3px solid #2648b9;
-  outline: none;
-}
-
 .contacts .contact-form form .btn {
   display: flex;
   justify-content: center;
   padding-bottom: 33px;
 }
-
 .contacts .contact-form form .btn button {
   color: #fff;
   text-align: center;
@@ -670,7 +589,6 @@ footer .containers .last {
   background-color: #2648b9;
   cursor: pointer;
 }
-
 .contacts .contact-form form .btn button:hover {
   opacity: 0.7;
 }
@@ -690,201 +608,161 @@ iframe {
   header nav li {
     margin-bottom: 45px;
   }
-
   header nav li a {
     font-size: 25px;
   }
-
   .about-info {
     gap: 15px;
   }
-
   .about-info p {
     font-size: 16px;
   }
-
   .video_section video {
     height: 400px;
   }
-
   .menu .menu-header p {
     font-size: 18px;
   }
-
   .vacancies-form p {
     font-size: 20px;
     padding-bottom: 50px;
   }
-
   .vacancies-form .btn .apply {
     font-size: 25px;
     width: 150px;
     height: 50px;
   }
-
   .vacancies-form .form-item label {
     font-size: 20px;
   }
-
   .vacancies-form .form-item input {
     width: 60%;
     height: 40px;
   }
-
   .about-info p {
     font-size: 20px;
   }
-
   footer .containers {
     gap: 0;
   }
-
   .cards {
     gap: 40px;
   }
-
   .cards .vacancie-card .card-header {
     font-size: 20px;
   }
-
   .form-item textarea {
     margin-left: 10px;
     height: 150px;
   }
-
   .menu .menu-header {
     justify-content: center;
   }
-
   .menu .menu-header p {
     font-size: 1.5vh;
   }
-
   .menu .menu-header a {
     font-size: 1.5vh;
   }
-
   .contacts {
     justify-content: center;
     gap: 0;
     margin-bottom: 50px;
   }
-
   .contacts .general_info {
     margin-right: 100px;
     margin-bottom: 100px;
   }
-
   .contacts .contact-form {
     margin-left: 100px;
     margin-top: 0;
   }
-
   footer .containers {
     justify-content: space-around;
     gap: 0;
   }
-
   footer .containers .container {
     margin-right: 30px;
   }
 }
-
 @media only screen and (max-width: 480px) {
+  .video_section {
+    margin-bottom: 30px;
+  }
   .home_banner {
     background-position: left;
   }
-
   .home_banner a {
     font-size: 18px;
   }
-
   .menu_banner {
     background-position: right;
   }
-
   .careers_banner {
     background-position: right;
   }
-
   .contact_banner {
     background-position: right;
   }
-
   .about-info {
     align-items: stretch;
     padding-top: 50px;
+    margin-bottom: 30px;
   }
-
   .about-info p {
     font-size: 16px;
     height: 100%;
   }
-
   .about-info iframe {
     padding-top: 50px;
   }
-
   .cards {
     gap: 0;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
   }
-
   .cards .vacancie-card {
     margin: 50px;
     margin-bottom: 0;
     width: 50%;
   }
-
   .cards .card-last {
     margin-bottom: 50px;
   }
-
   .vacancies-form {
     margin: 0;
   }
-
   .vacancies-form .form-item input {
     height: 25px;
     margin-top: 5%;
     font-size: 18px;
   }
-
   .vacancies-form .form-item textarea {
     height: 100px;
     font-size: 18px;
   }
-
   footer .containers .container {
     margin: 0;
   }
-
   footer .containers .container:first-child {
     padding-top: 20px;
   }
-
   footer .containers .container h3 {
     font-size: 20px;
   }
-
   footer .containers .container pre {
     font-size: 16px;
   }
-
   footer .containers .container p {
     font-size: 16px;
   }
-
   footer .containers .container li a {
     font-size: 16px;
   }
-
   footer .containers .container address a {
     font-size: 16px;
   }
-
   .contacts .general_info {
     width: 100%;
     margin-left: 0;
@@ -894,24 +772,20 @@ iframe {
     margin-bottom: 50px;
     flex-basis: 100%;
   }
-
   .contacts .general_info h4 {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
   }
-
   .contacts .general_info p {
     margin-left: 8%;
     margin-right: 8%;
   }
-
   .contacts .general_info .icons {
     margin-left: 0;
     margin-right: 0;
     justify-content: space-around;
   }
-
   .contacts .contact-form {
     width: 100%;
     margin-left: 0;
@@ -919,31 +793,26 @@ iframe {
     margin-bottom: 50px;
     border-radius: 0;
   }
-
   .contacts .contact-form form {
     align-content: center;
   }
-
   .contacts .contact-form form input {
     width: 90%;
     margin-left: 0;
     margin-right: 0;
     font-size: 18px;
   }
-
   .contacts .contact-form form textarea {
     width: 90%;
     margin-left: 0;
     margin-right: 0;
     font-size: 18px;
   }
-
   .contacts .contact-form form .btn button {
     font-size: 20px;
     width: 160px;
     height: 45px;
   }
-
   .contacts .contact-form h3 {
     font-size: 35px;
   }

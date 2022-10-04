@@ -122,6 +122,10 @@ $phone: "480px";
 }
 
 @media only screen and (max-width: $phone) {
+    .video_section {
+        margin-bottom: 30px;
+    }
+
     .home_banner {
         background-position: left;
 
@@ -145,6 +149,7 @@ $phone: "480px";
     .about-info {
         align-items: stretch;
         padding-top: 50px;
+        margin-bottom: 30px;
 
         p {
             font-size: 16px;
