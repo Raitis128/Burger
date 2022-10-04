@@ -107,6 +107,11 @@ $lato: "Lato", sans-serif;
                 font-weight: 700;
                 font-family: $plus;
                 padding: 5px;
+
+                &:focus {
+                    border: 4px solid $blue;
+                    outline: none;
+                }
             }
 
             textarea {

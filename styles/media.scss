@@ -194,6 +194,34 @@ $phone: "480px";
         .containers {
             .container {
                 margin: 0;
+
+                &:first-child {
+                    padding-top: 20px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                pre {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                li {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+
+                address {
+                    a {
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }
